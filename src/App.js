@@ -7,11 +7,8 @@ function App() {
       <div className="container">
         <Weather defaultCity="New York" />
         <footer>
-          {" "}
-          This project was coded by Farrah Pepino and is
           <a href="https://github.com/fpepino1/react-weather">
-            {" "}
-            open-sourced on GitHub
+            © FARRAH PEPINO 2023
           </a>
         </footer>
       </div>

@@ -1,0 +1,44 @@
+.App {
+  font-family: Helvetica;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: smaller;
+}
+
+.TMR {
+  font-family: "Times New Roman";
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: white;
+}
+.color1 {
+  background-color: hsla(0, 0%, 50%, 0.5);
+}
+.color3 {
+  background-color: hsla(0, 0%, 50%, 0.5);
+}
+
+.color2 {
+  background-color: hsla(0, 0%, 100%, 0.5);
+}
+.btn {
+  border-style: none;
+}
+.color1:hover {
+  background-color: hsla(0, 0%, 20%, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Helvetica;
+}

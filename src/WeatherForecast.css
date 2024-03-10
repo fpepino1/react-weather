@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.WeatherForecast-temperature {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.WeatherForecast-temperature-max {
+  color: red;
+  font-weight: bolder;
+}
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;

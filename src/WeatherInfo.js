@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 import FormattedDate from "./FormattedDate";
+import "./App.css";
 
 export default function WeatherInfo(props) {
   return (
-    <div className="WeatherInfo">
-      <h1>{props.data.city}</h1>
+    <div className="WeatherInfo ">
+      <h1 className="TMR white">{props.data.city.toUpperCase()}</h1>
       <ul>
         <li>
           <FormattedDate date={props.data.date} />
