@@ -53,6 +53,7 @@ export default function Weather(props) {
                   border: "none",
                   padding: "15px 5px 15px 5px",
                   borderRadius: "12.8px",
+                  backgroundColor: "hsla(0, 0%, 100%, 0.5)",
                 }}
               />
             </div>
